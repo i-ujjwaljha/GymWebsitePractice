@@ -1,32 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cabin&family=Dancing+Script:wght@400;600&family=Jost&family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Cabin&family=Dancing+Script:wght@400;600&family=Jost&family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Cabin&family=Dancing+Script:wght@400;600&family=Jost&family=Kaushan+Script&family=Permanent+Marker&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
-    background: url('bg.png');
+}
+
+body{
+    background-image: url('bg.png');
     background-size: cover;
-}
-
-.left{
-    position: absolute;
-    left: 34px;
-    top: 22px;
-    display: inline-block;
-    border: 5px solid red;
 
 }
 
-.mid{
-    display: block;
+h3{
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.logo
+{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img
+{
     width: 33%;
-    margin: 12px auto;
-    border: 5px solid rgb(142, 245, 8);
+    border-radius: 50px;
 }
 
-.right{
-    position: absolute;
-    right: 34px;
-    top: 22px;
-    display: inline-block;
-    border: 5px solid red;
-
+.navbar
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;  
 }
+
+.nav-list
+{
+   width: 50%;
+   display: flex;
+}
+
+.nav-list li
+{
+    list-style: none;
+    padding: 18px;
+}
+
+.nav-list li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover
+{
+    font-size: 110%;
+    text-decoration: solid;
+    color: yellow;
+}
+
+
+
+
+h2{
+    font-family: 'Kaushan Script', cursive;
+}
+/* .background
+{
+    background: rgb(0,0,0.7) url('bg.png');
+    background-size: cover ;
+    background-blend-mode: darken;
+} */
+
+
+
 
